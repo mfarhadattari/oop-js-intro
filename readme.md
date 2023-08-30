@@ -1,8 +1,7 @@
 # OOP - JavaScript
 
-```
-OOP stands for Object-Oriented Programming. It's a programming paradigm that organizes and structures code by modeling real-world entities and their interactions as objects. The core concept of OOP is to bundle data (property) and the functions (methods) that operate on that data into self-contained units called "objects". These objects can then interact with each other to perform various tasks and implement complex behaviors.
-```
+
+- OOP stands for Object-Oriented Programming. It's a programming paradigm that organizes and structures code by modeling real-world entities and their interactions as objects. The core concept of OOP is to bundle data (property) and the functions (methods) that operate on that data into self-contained units called "objects". These objects can then interact with each other to perform various tasks and implement complex behaviors.
 
 ```javascript
 class Player {
@@ -19,11 +18,9 @@ class Player {
 
 ## There are four main principles of OOP:
 
-- Encapsulation:
-
-```
+### Encapsulation:
 Encapsulation refers to the concept of bundling data and methods that operate on that data into a single unit. The data is hidden from outside access, and interactions with the object are controlled through its methods. This promotes data integrity and protects it from unintended modifications.
-```
+
 
 ```javascript
 class Person {
@@ -60,11 +57,8 @@ class Person {
 }
 ```
 
-- Abstraction:
-
-```
+### Abstraction: 
 Abstraction involves simplifying complex reality by modeling classes based on relevant property and method, while ignoring unnecessary details. This allows programmers to focus on essential features and interactions, making code more manageable and understandable.
-```
 
 ```javascript
 class BetterArray {
@@ -92,11 +86,8 @@ class BetterArray {
 }
 ```
 
-- Inheritance:
-
-```
+### Inheritance: 
 Inheritance enables the creation of a new class (subclass or child class) that inherits properties and method from an existing class (superclass or parent class). This promotes code reuse and allows for the extension or modification of existing classes without altering their original code.
-```
 
 ```javascript
 class Player {
@@ -130,11 +121,8 @@ class Footballer extends Player {
 }
 ```
 
-- Polymorphism:
-
-```
+### Polymorphism: 
 Polymorphism allows objects of different classes to be treated as objects of a common superclass. This facilitates creating more generic and flexible code, as different objects can respond to the same method calls in a way that's specific to their individual class.
-```
 
 ```javascript
 class Player {
